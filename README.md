@@ -41,7 +41,7 @@ Beware: Decrypter has limitation: It can effectively process only 4 computation 
 
 *Tips:* [Channel](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.experimental.channels/-channel.html), [Channel.send](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.experimental.channels/-send-channel/send.html), [Channel.receive](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.experimental.channels/-receive-channel/receive.html), [launch](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.experimental/launch.html), [produce](https://kotlin.github.io/kotlinx.coroutines/kotlinx-coroutines-core/kotlinx.coroutines.experimental.channels/produce.html)
 
-#### 4. Error handling, supervision
+#### 4. Error handling
 
 This is time to focus also on correctness of your decryption (dealing with Decryptor problems to be more precise).
 
